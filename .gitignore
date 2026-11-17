@@ -1,0 +1,22 @@
+# Certificate PDFs (large binaries)
+# We DO want to commit these (they're served by GitHub Pages), so no ignore here.
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary build artifacts
+node_modules/
+dist/
+.tmp/
+
+# Logs
+*.log
